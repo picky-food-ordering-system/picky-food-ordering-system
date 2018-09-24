@@ -105,6 +105,39 @@
 	margin: auto;
 	display: inline-block;
 }
+
+@media screen and (max-width: 400px) {
+	.name{
+		font-size: 5em;
+	}
+	.mysearch{
+		width: 100%;
+		margin: auto;
+	}
+	.card{
+		width: 100%;
+		margin-top: 50px;
+	}
+	.card button{
+		font-size: 15px;
+	}
+	.recommend{
+		font-size: 15px;
+		padding: 0;
+		width: 90%;
+	}
+	.aboutwebsite, .meetdevs{
+			margin-top: 0;
+			font-size: 15px;
+			width: 100%;
+		}
+	#aboutsign{
+			margin-top: 0;
+			font-size: 1.5em;
+		}
+
+}
+	
 }
 @media screen and (max-width: 350px) {
 	.name{
