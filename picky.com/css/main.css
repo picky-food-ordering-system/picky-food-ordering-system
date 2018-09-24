@@ -1,31 +1,22 @@
-body, html {font-family: 'OpenSans';height: 100%;margin: 0;font-size: 15px;}
-.mainbg {
-/* The image used */
-background-image: url("../images/armando-ascorve-morales-155473-unsplash.jpg");
-width: 100%;
-height: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+body, html {font-family: 'OpenSans';height: 100%;margin: 0;font-size: 15px;padding: 0;}
+.mainbg {background-image: url("../images/armando-ascorve-morales-155473-unsplash.jpg");width: 100%;height: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.mysearch .card{
+	width: auto;
 }
 input[type=text] {
-width: 25%;
+width: auto;
 -webkit-transition: width 0.4s ease-in-out;
 transition: width 0.4s ease-in-out;
 }
-/* When the input field gets focus, change its width to 100% */
+
 input[type=text]:focus {
-width: 50%;
+width: auto;
 }
 input{
 margin: 10px auto;
 padding: auto;
 }
-.menu{
-max-width: 50%;
-margin: 0px auto;
-padding: 15px;
-}
+.menu{width: 50%;margin: 0px auto;padding: 15px;}
 .link{
 color: rgb(246, 250, 250);
 font-family: 'OpenSans';
@@ -38,10 +29,11 @@ text-decoration: none;
 .name{
 	margin: 50px auto;
 	text-align: center;
-	font-size: 12em;
+	font-size: 10em;
 	letter-spacing: 20px;
 	color: rgb(246,246,246);
 	font-family: 'Fredericka';
+	width: auto;
 }
 
 .form-control-borderless {
@@ -52,18 +44,8 @@ border: none;
 outline: none;
 box-shadow: none;
 }
-@media only screen and (max-width: 920px) {
-	body{
-		margin: 0;
-	}
-.name{
-max-width: 80%;
-height: auto;
-font-size: 4em;
-margin: auto;
-text-align: center;
-}
-.searchbar{
-max-width: 50%;
-}
 
+.myrow{
+	margin-right: 0;
+	margin-left: 0;
+}
