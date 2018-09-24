@@ -127,13 +127,18 @@
 		width: 90%;
 	}
 	.aboutwebsite, .meetdevs{
-			margin-top: 0;
-			font-size: 15px;
-			width: 100%;
+		margin-top: 0;
+		font-size: 15px;
+		width: 100%;
+		}
+	.aboutwebsite h2, .meetdevs h2{
+		margin-top: 0;
+		font-size: 20px;
+		width: 100%;
 		}
 	#aboutsign{
-			margin-top: 0;
-			font-size: 1.5em;
+		margin-top: 0;
+		font-size: 1.2em;
 		}
 
 }
